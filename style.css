@@ -13,6 +13,54 @@ a:hover {
     text-decoration: underline;
 }
 
+.brand-lockup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    width: fit-content;
+    margin-inline: auto;
+    color: #171914;
+    text-decoration: none;
+}
+
+.brand-lockup:hover {
+    text-decoration: none;
+}
+
+.brand-mark {
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    aspect-ratio: 1;
+    border-radius: 0.55rem;
+    background: #171914;
+    color: #fff;
+    font-family: Georgia, serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.brand-copy {
+    display: grid;
+    gap: 0.05rem;
+    text-align: left;
+}
+
+.brand-name {
+    font-size: 1.35rem;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.brand-tagline {
+    color: #6b7066;
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
 .btn {
     font-size: 0.8rem;
     font-weight: 700;
