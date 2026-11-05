@@ -5,6 +5,14 @@ body {
     background-color: #fff;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .btn {
     font-size: 0.8rem;
     font-weight: 700;
@@ -14,13 +22,24 @@ body {
     vertical-align: text-top;
 }
 
+.btn-outline-custom {
+    border-color: #ddd;
+    color: #31374a;
+}
+
+.btn-outline-custom:hover {
+    border-color: #ddd;
+    color: #31374a;
+    background-color: #eee;
+}
+
 .bg-holder {
     position: relative;
     width: 100%;
     min-height: 100%;
     top: 0;
     left: 0;
-    background-size: conver;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
